@@ -4,7 +4,7 @@ export default defineAppConfig({
 		titleTemplate: '%s - Handy Script',
 		url: 'https://handyscript.tech',
     description: 'A set of useful Javascript modules that extends the javascript core context.',
-    image: 'https://github.com/handyscript/weboc/blob/1639d0069064170c1e7d0beda8d63bc91bbd83b5/public/cover.png',
+    image: 'https://github.com/handyscript/weboc/blob/1639d0069064170c1e7d0beda8d63bc91bbd83b5/public/cover.png?raw=true',
     socials: {
       twitter: 'vvhybe',
       github: 'handyscript/handyscript',
