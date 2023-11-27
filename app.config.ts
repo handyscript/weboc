@@ -1,22 +1,19 @@
 export default defineAppConfig({
   docus: {
-    title: 'Docus',
-    description: 'The best place to start your documentation.',
-    image: 'https://user-images.githubusercontent.com/904724/185365452-87b7ca7b-6030-4813-a2db-5e65c785bf88.png',
+    title: 'Handy Script',
+		titleTemplate: '%s - Handy Script',
+		url: 'https://handyscript.tech',
+    description: 'A set of useful Javascript modules that extends the javascript core context.',
+    image: 'https://github.com/handyscript/weboc/blob/1639d0069064170c1e7d0beda8d63bc91bbd83b5/public/cover.png',
     socials: {
-      twitter: 'nuxt_js',
-      github: 'nuxt-themes/docus',
-      nuxt: {
-        label: 'Nuxt',
-        icon: 'simple-icons:nuxtdotjs',
-        href: 'https://nuxt.com'
-      }
+      twitter: 'vvhybe',
+      github: 'handyscript/handyscript',
     },
     github: {
-      dir: '.starters/default/content',
+      dir: '.',
       branch: 'main',
-      repo: 'docus',
-      owner: 'nuxt-themes',
+      repo: 'handyscript',
+      owner: 'handyscript',
       edit: true
     },
     aside: {
@@ -29,10 +26,23 @@ export default defineAppConfig({
       fluid: true
     },
     header: {
-      logo: true,
+			title: "Handy Script",
+      logo: {
+				light: "https://github.com/handyscript/weboc/blob/2ac5e0b31b4025b9531f041f428cf78f4ee98f2d/public/logo-dark.png?raw=true",
+				dark: "https://raw.githubusercontent.com/handyscript/weboc/2ac5e0b31b4025b9531f041f428cf78f4ee98f2d/public/logo-light.png",
+			},
       showLinkIcon: true,
       exclude: [],
-      fluid: true
-    }
+      fluid: true,
+    },
+		footer: {
+			fluid: true,
+			credits: {
+				icon: "©️",
+				text: 'Handy Script',
+				href: 'https://handyscript.tech'
+			},
+			exclude: []
+		},
   }
 })
