@@ -45,7 +45,13 @@
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"markdownlint.config": {
-		"MD033": false // bypass no-inline-html
+		"MD007": false, // bypass unordered-list-indentation
+		"MD010": false, // bypass hard-tabs
+		"MD018": false, // bypass no-missing-space-atx
+		"MD022": false, // bypass blanks-around-headings
+		"MD032": false, // bypass lists-marker-space
+		"MD033": false, // bypass no-inline-html
+		"MD034": false, // bypass no-bare-urls
 	},
 
 	// Misc
