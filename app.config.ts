@@ -10,9 +10,9 @@ export default defineAppConfig({
       github: 'handyscript/handyscript',
     },
     github: {
-      dir: '.',
+      dir: './content/',
       branch: 'main',
-      repo: 'handyscript',
+      repo: 'weboc',
       owner: 'handyscript',
       edit: true
     },
