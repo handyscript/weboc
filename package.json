@@ -18,7 +18,7 @@
     "@types/node": "^20.10.3",
 		"cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.55.0",
-    "nuxt": "^3.7.4"
+    "nuxt": "^3.9.0"
   },
   "dependencies": {
     "handyscript": "^1.9.0-production"
